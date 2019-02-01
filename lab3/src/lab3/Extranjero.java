@@ -1,14 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package lab3;
 
-/**
- *
- * @author jason
- */
-public class Extranjero {
-    
+public class Extranjero extends Empresa {
+private String pais;
+private String pagina_web;
 }
