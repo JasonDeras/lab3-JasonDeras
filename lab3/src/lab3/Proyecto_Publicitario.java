@@ -1,14 +1,28 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package lab3;
 
-/**
- *
- * @author jason
- */
-public class Proyecto_Publicitario {
-    
+public class Proyecto_Publicitario extends Proyecto {
+
+    private Freelance freelance;
+
+    public Proyecto_Publicitario() {
+        super();
+    }
+
+    public Proyecto_Publicitario(Freelance freelance) {
+        this.freelance = freelance;
+    }
+
+    public Freelance getFreelance() {
+        return freelance;
+    }
+
+    public void setFreelance(Freelance freelance) {
+        this.freelance = freelance;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "freelance=" + freelance + '}';
+    }
+
 }
